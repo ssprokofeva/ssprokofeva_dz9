@@ -10,6 +10,20 @@ namespace ssprokofeva_dz9
     {
         static void Main(string[] args)
         {
+            var teams = new List<Team>
+            {
+                new Team("Россия"),
+                new Team("Франция"),
+                new Team("Китай"),
+                new Team("Казахстан")
+            };
+
+            foreach (var team in teams)
+            {
+                System.Console.WriteLine($"\n*** Команда {team.Name} ***");
+                team.PlayGames(6);
+            }
         }
     }
+    
 }
