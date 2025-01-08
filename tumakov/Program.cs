@@ -15,6 +15,9 @@ namespace tumakov
             Console.WriteLine("Введите что-нибудь для выхода");
             Console.ReadKey();
         }
+        /// <summary>
+        /// Упражнение 10.1.
+        /// </summary>
         private static void Task1()
         {
             string testString = "Привет мир!";
@@ -33,7 +36,9 @@ namespace tumakov
             Console.WriteLine($"Зашифровано BCipher: {encodedBcipher}");
             Console.WriteLine($"Расшифровано BCipher: {decodedBcipher}");
         }
-
+        /// <summary>
+        ///Домашнее задание 10.1. 
+        /// </summary>
         private static void Task2()
         {
 
